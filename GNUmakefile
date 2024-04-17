@@ -1,4 +1,6 @@
 SHELL := $(shell which bash)
+build:
+	pandoc -f markdown -t html source/content.md -o index.html
 default:
 	 git branch --set-upstream-to=origin/master master
 	 git remote add upstream git@github.com:RandyMcMillan/git_workshop.git 2>/dev/null || \
