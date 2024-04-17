@@ -1,4 +1,4 @@
-### git_workshop
+### git_workshop This is a test
 
 ```
 SHELL := $(shell which bash)
